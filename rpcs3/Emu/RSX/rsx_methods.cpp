@@ -304,7 +304,6 @@ namespace rsx
 			case CELL_GCM_ZCULL_STATS2:
 			case CELL_GCM_ZCULL_STATS3:
 				result->value = 0;
-				LOG_WARNING(RSX, "NV4097_GET_REPORT: Unimplemented type %d", type);
 				break;
 
 			default:
